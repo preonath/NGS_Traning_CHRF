@@ -20,3 +20,6 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+Raw_data/SPN_0017_R1.fastq.gz
+Raw_data/SPN_0017_R2.fastq.gz
+Raw_data/*.fastq.gz

@@ -1,0 +1,50 @@
+ 2079  sort -r bdstat.txt 
+ 2080  grep "NZ_CP035252.1" snps.csv 
+ 2081  clear
+ 2082  grep "NZ_CP035252.1" snps.csv | head
+ 2083  grep "Dhaka" bdstat.txt 
+ 2084  grep "Dhaka" bdstat.txt | cut 
+ 2085  grep "Dhaka" bdstat.txt | cut -c 1
+ 2086  clear
+ 2087  grep "Dhaka" bdstat.txt | cut -c 1
+ 2088  grep "Dhaka" bdstat.txt 
+ 2089  grep "Dhaka" bdstat.txt | cut -f 1
+ 2090  grep "Dhaka" bdstat.txt | cut -f 2
+ 2091  man cut
+ 2092  clear
+ 2093  cat sed_example.txt 
+ 2094  cat sed_example.txt | sed 's/D/d/'
+ 2095  cat sed_example.txt | sed 's/D/d/g'
+ 2096  cat sed_example.txt | sed 's/^D/d/g'
+ 2097  clear
+ 2098  ls *.txt
+ 2099  ls
+ 2100  cat sed_example.txt | sed 's/D$/d/g'
+ 2101  clear
+ 2102  cat awk_example.txt 
+ 2103  cat awk_example.txt | grep "a"
+ 2104  cat awk_example.txt | grep "a" | cut -f 2,3
+ 2105  clear
+ 2106  cat awk_example.txt 
+ 2107  cat awk_example.txt | awk {print}
+ 2108  cat awk_example.txt | awk {print $1 $2}
+ 2109  clear
+ 2110  cat awk_example.txt | awk {'print $1 $2'}
+ 2111  cat awk_example.txt | awk {'print $1 "\t" $2'}
+ 2112  cat awk_example.txt | awk {'print $3 "\t" $2'}
+ 2113  cat awk_example.txt | awk {'print $3 "," $2'}
+ 2114  cat awk_example.txt | awk '$2 >=5 {print}'
+ 2115  clear
+ 2116  cat awk_example.txt | awk '$2 >=5 {print}'
+ 2117  cat awk_example.txt | awk '$3 >=5 {print}'
+ 2118  cat awk_example.txt | awk '$1 =="a" {print}'
+ 2119  cat awk_example.txt | awk '$1 =="a" {print}' > result.txt
+ 2120  ls
+ 2121  cat result.txt 
+ 2122  clear
+ 2123  history
+ 2124* 
+ 2125  history | head 
+ 2126  history | tail
+ 2127  history | tail -n 50
+ 2128  history | tail -n 50 > recent_history
